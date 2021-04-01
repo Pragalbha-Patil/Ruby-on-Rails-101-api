@@ -5,4 +5,8 @@ class ArticlesController < ApplicationController
     # It is considered a good practice to use only local variables in the partials,
     # as this allows you to reuse them much more easily, including between the views.
   end
+
+  def show
+    @article = Article.find(params[:id])
+  end
 end
