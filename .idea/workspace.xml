@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="68726cb1-a1cb-4602-b57f-bd14e14f3366" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/Ruby-on-Rails-101.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Ruby-on-Rails-101.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api_demo/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_demo/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api_demo/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_demo/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api_demo/app/api/book_store/v1/books.rb" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_demo/app/api/book_store/v1/books.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +26,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1qmsYHnHDj8IgZX5IFDg81UU9wI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,14 +37,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/api/api_demo" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RubyModuleManagerSettings">
     <option name="blackListedRootsPaths">
       <list>
         <option value="$PROJECT_DIR$/blog" />
-        <option value="$PROJECT_DIR$/api/api" />
       </list>
     </option>
   </component>
@@ -53,10 +58,24 @@
       <updated>1617696147968</updated>
       <workItem from="1617696150998" duration="1308000" />
       <workItem from="1617816069047" duration="2244000" />
+      <workItem from="1617948079378" duration="4320000" />
+      <workItem from="1618075118078" duration="1242000" />
+      <workItem from="1618136295681" duration="3325000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

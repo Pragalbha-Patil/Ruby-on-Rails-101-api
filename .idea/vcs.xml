@@ -3,5 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/api/api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/converter/converter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rspec-demo" vcs="Git" />
   </component>
 </project>

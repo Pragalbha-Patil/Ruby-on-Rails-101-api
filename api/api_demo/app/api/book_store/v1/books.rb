@@ -4,11 +4,12 @@ module BookStore
       version 'v1', using: :path
       format :json
       prefix :api
+      # mount BookStore::V1
       resource :books do
         desc 'Return list of books'
         get do
           books = Book.all
-          present books, with: BookStore::Entities::Index
+          present books
         end
       end
 
