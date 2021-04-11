@@ -19,7 +19,8 @@ module Api
         @book = Book.find(params[:id])
         if @book.present?
           @book.destroy
-          render json: {"message": "OK"}, status: 200
+          # render json: {"message": "OK"}, status: 200
+          head :no_content
         end
       rescue ActiveRecord::RecordNotDestroyed
         render json: {}, status: unprocessable_entity
