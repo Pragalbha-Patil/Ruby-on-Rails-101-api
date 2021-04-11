@@ -30,10 +30,13 @@ describe 'Books API', type: :request do
     end
 
     describe 'DELETE /books/:id' do
+        DatabaseCleaner.clean # truncates the table
         book = FactoryBot.create(:book, title: 'Ruby', author: 'PSP')
         
         it 'deletes a book by given ID' do
-            delete "/api/v1/books/#{book.id}"
+            expect {
+                delete "/api/v1/books/#{book.id}"
+            }.to change {Book.count}.from(1).to(0)
             expect(response).to have_http_status(:no_content)
         end
     end
