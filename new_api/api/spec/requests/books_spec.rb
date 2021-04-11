@@ -1,5 +1,8 @@
 require 'rails_helper'
 require 'factory_bot_rails'
+require 'database_cleaner/active_record'
+
+DatabaseCleaner.strategy = :truncation
 
 describe 'Books API', type: :request do
     describe 'GET /books' do
@@ -17,7 +20,7 @@ describe 'Books API', type: :request do
 
     describe 'POST /books' do
         it 'Create a new book' do
-            
+            DatabaseCleaner.clean # truncates the table
             expect {
                 post '/api/v1/books', params: {book: {title: 'Nice book', author: 'PSP'}}
             }.to change { Book.count }.from(0).to(1)
