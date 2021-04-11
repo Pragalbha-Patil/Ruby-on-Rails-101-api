@@ -6,13 +6,12 @@ DatabaseCleaner.strategy = :truncation
 
 describe 'Books API', type: :request do
     describe 'GET /books' do
-        it 'returns all books' do
-            
+        before do
             FactoryBot.create(:book, title: 'Ruby', author: 'PSP')
             FactoryBot.create(:book, title: 'Ruby 101', author: 'PSP')
-            
+        end
+        it 'returns all books' do
             get '/api/v1/books'
-            
             expect(response).to have_http_status(:success)
             expect(JSON.parse(response.body).size).to be > 1
         end
